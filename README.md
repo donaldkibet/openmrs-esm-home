@@ -9,7 +9,7 @@ Micro front ends home and patient search repo
 3. `git clone https://github.com/openmrs/openmrs-esm-home.git`. the Github link [https://github.com/openmrs/openmrs-esm-home.git](https://github.com/openmrs/openmrs-esm-home.git)
 4. [https://github.com/openmrs/openmrs-esm-home.git](https://github.com/openmrs/openmrs-esm-home.git). Clone your fork.
 5. `npm install` inside your repo
-6. run `npm run start-https` to start your development using https.
+6. run `npm run start-https` to start your development server using https.
 7. Now [Enable insecure localhost request](https://superuser.com/questions/772762/how-can-i-disable-security-checks-for-localhost)
 8. Navigate to [OpenMRS SPA page](https://openmrs-spa.org/openmrs/spa/login)
 9. Open browser console and enable developer tools. Paste the command `localStorage.setItem("openmrs:devtools", true);` to the console, after this refresh your page.
