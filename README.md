@@ -16,7 +16,7 @@ Micro front ends home and patient search repo
 10. Add the Module Overrides. for this repository
 
 - Add `@openmrs-esm-home` for this repo on the Default URL
-- `https://localhost:8080/openmrs-esm-home.js` for the Override URL
+- `https://localhost:8081/openmrs-esm-home.js` for the Override URL
 
 11. run `npm run start-https` to start your development using https.
 12. Refresh your browser and you are good to go!!.
