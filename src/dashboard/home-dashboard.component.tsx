@@ -2,6 +2,7 @@ import React from "react";
 import styles from "./home-dashboard.component.css";
 import { Link, match } from "react-router-dom";
 import { UserHasAccessReact } from "@openmrs/esm-api";
+import { checkBackendDeps } from "../openmrs-backendDeps";
 
 export default function HomeDashboard(props: HomeDashboardProps) {
   return (
@@ -21,6 +22,9 @@ export default function HomeDashboard(props: HomeDashboardProps) {
           </UserHasAccessReact>
         </section>
       </div>
+      <section>
+        <button onClick={checkBackendDeps}>Click Me</button>
+      </section>
       <section className={styles.logoSection}>
         <svg>
           <use xlinkHref="#omrs-logo-full-mono" />
